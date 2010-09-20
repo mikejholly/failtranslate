@@ -24,6 +24,7 @@ def translate(msgid, lang_from, lang_to):
   print
   return msgstr
 
+
 if __name__ == "__main__":
   if len(sys.argv) < 4:
     print "Usage: %s file.po from-lang to-lang" % sys.argv[0]
